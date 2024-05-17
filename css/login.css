@@ -1,0 +1,131 @@
+:root {
+  --main-color: #071f30;
+  --yellow-color: #ff960b;
+  --science-color: #e200ff;
+  --box-shadow: 5px 3px 59px 5px #2f85f58c;
+  --background: #053452;
+  --border-color: #0077b5;
+  --button-before-content: "\2b";
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--main-color);
+
+  background-image: url("../images/bac.jpg");
+}
+/* start login */
+.container {
+}
+.container .login {
+}
+@media (max-width: 510px) {
+  .container .login {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.container .login .signin {
+  background-image: linear-gradient(175deg, red, black);
+  width: 500px;
+  height: 600px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.container .login .signin form input {
+  width: 95%;
+  border: none;
+  margin-bottom: 15px;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: black;
+  letter-spacing: 1.6px;
+  background-color: rgb(255 248 248);
+}
+.container .login .signin form input:focus {
+  outline: none;
+  border: 1px solid black !important;
+  box-shadow: none;
+}
+.container .login .signin form h2 {
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: white;
+}
+.container .login .signin form .icons {
+}
+.container .login .signin form .icons svg {
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(0 0 4);
+  margin-right: 10px;
+  transition: 0.3s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .login .signin form .icons svg:hover {
+  transform: translateY(-10px);
+  background-color: white;
+  color: #071f30;
+}
+.container .login .signin form a {
+  margin-top: 50px;
+  font-size: 21px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+.container .login .signin form a:hover {
+  transform: translateX(20px);
+  color: aquamarine;
+  text-decoration: underline;
+}
+.container .login .signin form button {
+  width: 50%;
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2.3px;
+  background: black;
+  border: 1px solid #b7b7b7;
+}
+.container .login .signin form button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 18px 1px rgb(241, 220, 220);
+}
+.container .login .signin form a:last-child {
+  box-shadow: 2px 2px 18px 1px rgb(241, 220, 220);
+  padding: 5px 10px;
+  animation: up 01s infinite;
+}
+@keyframes up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}

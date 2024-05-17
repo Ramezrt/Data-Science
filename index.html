@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Science</title>
+    <link rel="icon" href="icons8-favicon-94.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- google foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aso -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="up" class="rounded-circle text-white rounded-circle">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- start navbar -->
+    <nav
+      class="navbar navbar-expand-lg  "
+      style="background-color: #071f30;"
+    >
+      <div class="container-fluid ms-0 ps-0">
+        <a class="navbar-brand text-uppercase ms-0" href="#">data sience</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i
+            class="fa-solid fa-bars bar"
+            style="color: white; font-size: 30px;"
+          ></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 links">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#books">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#question">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button
+            class="btn rounded-pill text-uppercase border-1 sign py-3 px-4 me-3"
+            onclick="document.location = 'login.html'" 
+          >
+            sign up
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start laning -->
+    <div class="landing mp-5 py-5" >
+      <div
+        class="container pt-5 text-white d-flex justify-content-center align-items-center"
+      >
+        <div class="row mt-5">
+          <div
+            class="col col-sm-12 col-lg-6 d-flex flex-column justify-content-center circle-before"
+          >
+            <div class="text d-md-flex gap-5 d-lg-block">
+              <h1>
+                Learn <span class="d-block">Date </span>
+                <span class="d-block">science</span> Interactively
+              </h1>
+              <div class="text-in d-flex flex-column">
+                <p class="mt-5 mt-md-0 lh-1">
+                  Build Projects, Practice and <br />Learn to code from
+                  scratch<br />
+                  without leaving your browser.
+                </p>
+
+                <div class="start mt-5">
+                  <h2 class="fw-normal fs-5 text-uppercase start-an">
+                    get started
+                    <span></span>
+                  </h2>
+                  <div class="social-icons mt-3 d-flex flex-row">
+                    <i
+                      class="fa-brands fa-facebook-f me-3 rounded-circle bg-white text-dark icon"
+                    ></i
+                    ><i
+                      class="fa-brands fa-twitter me-3 rounded-circle bg-white text-dark icon"
+                    ></i
+                    ><i
+                      class="fa-brands fa-instagram me-3 rounded-circle bg-white text-dark icon"
+                    ></i
+                    ><i
+                      class="fa-brands fa-youtube me-3 rounded-circle bg-white text-dark icon"
+                    ></i
+                    ><i
+                      class="fa-brands fa-linkedin me-3 rounded-circle bg-white text-dark icon"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+          <div class="col col-lg-6 d-none d-lg-block image rounded-circle">
+            <img src="images/1.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end laning -->
+    <!-- start info -->
+    <div class="info p-5 mt-5 mb-5" id="about">
+      <div class="row">
+        <div class="col d-none d-xl-block col-lg-4">
+          <img
+            src="images/dsimg.webp"
+            alt=""
+            style="
+              width: 80%;
+              animation: up-down 3s infinite;
+              box-shadow: 5px 3px 59px 5px #2f85f58c;
+              border-radius: 20px;
+            "
+          />
+        </div>
+        <div class="col text-white p-0">
+          <div
+            class="text-info d-flex flex-column text-white fs-5 px-lg-5 pt-0"
+          >
+            <h1 class="fs-1 mb-5 fw-bold">
+              What is Data <i style="color: #e200ff;">Science </i>?
+            </h1>
+            <p class="mb-3 lh-lg text-white-50">
+              Data Science is the field of study that combines domain expertise
+              , programming skills , knowledge of mathematics and statistics to
+              extract meaningful insights from data for business.
+            </p>
+            <p class="mb-3 lh-lg text-white-50">
+              It is a multidisciplinary approach that combines principles and
+              practices from the fields of artificial intelligence and above
+              fields to analyze large amounts of data.
+            </p>
+            <p class="lh-lg text-white-50">
+              This analysis helps data scientists to ask and answer questions
+              like what happened , why it happened, what will happen , and what
+              can be done with the results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end info -->
+    <!-- start view -->
+    <div data-aos="flip-up" class="mb-5 mt-5">
+      <div class="view text-white mt-5">
+        <div class="container mt-5">
+          <div class="row row-cols-2 row-cols-sm-3">
+            <div class="col">
+              <div class="text">
+                <i
+                  class="fa-solid fa-video"
+                  style="background-color: var(--yellow-color);"
+                ></i>
+                <h4 class="courses">1</h4>
+                <p>courses</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text">
+                <i
+                  class="fa-solid fa-users"
+                  style="background-color: #00bf8e;"
+                ></i>
+                <h4 class="students">0</h4>
+                <p>Students</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="text">
+                <i
+                  class="fa-solid fa-trophy"
+                  style="background-color: #054067;"
+                ></i>
+                <h4 class="awards">0</h4>
+                <p>Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end view -->
+    <!-- start books -->
+    <div class="books text-center text-white mt-5" id="books">
+      <div data-aos="zoom-in">
+        <h1 class="text-white mb-5 mt-5">Popular Data Science Books</h1>
+      </div>
+      <div class="container d-flex justify-content-center my-5">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6 d-flex justify-content-center">
+            <div data-aos="flip-left">
+              <div class="card">
+                <img src="images/book1.jpg" alt="" />
+                <div class="card-body">
+                  <h6 class="card-title">Probability-Statistics-Engineering</h6>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt aperiam deserunt eaque quos iure ad debitis.
+                  </p>
+                  <button
+                    class="btn btn-danger text-white rounded-pill py-3 px-4 my-4"
+                  >
+                    Buy Book
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6  d-flex justify-content-center">
+            <div data-aos="flip-up">
+              <div class="card">
+                <img src="images/book2.jpg" alt="" />
+                <div class="card-body">
+                  <h6 class="card-title">Python-Data-Analysis</h6>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt aperiam deserunt eaque quos iure ad debitis.
+                  </p>
+                  <button
+                    class="btn btn-danger text-white rounded-pill py-3 px-4 my-4"
+                  >
+                    Buy Book
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6  d-flex justify-content-center">
+            <div data-aos="flip-right">
+              <div class="card">
+                <img src="images/book3.jpg" alt="" />
+                <div class="card-body">
+                  <h6 class="card-title">Hands-Machine-Learning</h6>
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nesciunt aperiam deserunt eaque quos iure ad debitis.
+                  </p>
+                  <button
+                    class="btn btn-danger text-white rounded-pill py-3 px-4 my-4"
+                  >
+                    Buy Book
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end books -->
+    <!-- start all courses -->
+    <div class="all-courses text-center text-white mt-5" id="courses">
+      <div data-aos="zoom-in">
+        <h1 class="text-white mb-5 mt-5">Popular Data Science Courses</h1>
+      </div>
+      <div class="container d-flex justify-content-center my-5">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6  d-flex justify-content-center">
+            <div data-aos="flip-left">
+              <div class="card">
+                <img src="images/Data-Scientist.webp" alt="" />
+                <div class="card-body">
+                  <h6 class="card-title">GFG Data Science course</h6>
+                  <p class="card-text">
+                    You can find the complete course on Data science here along
+                    with projects.
+                  </p>
+                  <button
+                    class="btn btn-danger text-white rounded-pill py-3 px-4 my-4"
+                  >
+                  Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6  d-flex justify-content-center">
+            <div data-aos="flip-up">
+              <div class="card">
+                <img src="images/machine-learning.jpg" alt="" />
+                <div class="card-body">
+                  <h6 class="card-title">Machine learning online course</h6>
+                  <p class="card-text">
+                    This course is completely free of cost offered by Edureka
+                    and is available on youtube.
+                  </p>
+                  <button
+                    class="btn btn-danger text-white rounded-pill py-3 px-4 my-4"
+                  >
+                  Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6  d-flex justify-content-center">
+            <div data-aos="flip-right">
+              <div class="card">
+                <img src="images/data.jpg" alt="" />
+                <div class="card-body">
+                  <h6 class="card-title">Data Science online course</h6>
+                  <p class="card-text">
+                    Complete Data Science course offered by Udemy
+                  </p>
+                  <button
+                    class="btn btn-danger text-white rounded-pill py-3 px-4 my-4"
+                  >
+                   Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end all courses -->
+       <!-- start questions -->
+    <div class="question text-center my-5" id="question" >
+      <div data-aos="zoom-in">
+        <h1 class="text-white mb-5 mt-5">Frequently Asked Questions</h1>
+      </div>
+      <div class="container text-start">
+        <div class="row gap-3">
+          <div class="col-12">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample1"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+          
+            >
+            
+              How do I know the right courses for me?
+            </button>
+
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body bg-primary text-white">
+                Determine your specific goals and objectives in the field of
+                data science. Are you looking to acquire a broad understanding
+                of the field or specialize in a specific area. Knowing your
+                goals will help you narrow down the course options.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample2"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+           
+            >
+            
+              What programming languages are used in data science?
+            </button>
+
+            <div class="collapse" id="collapseExample2">
+              <div class="card card-body bg-primary text-white">
+                Python and R are the most commonly used programming languages in
+                data science courses due to their extensive libraries and tools
+                for data analysis and machine learning.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 ">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample3"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            
+            >
+           
+
+              What are the prerequisites for a data science course?
+            </button>
+
+            <div class="collapse" id="collapseExample3">
+              <div class="card card-body bg-primary text-white">
+                To study data science, it is crucial to have a strong foundation
+                in mathematics, including statistics and linear algebra.
+                Additionally, proficiency in programming languages like Python
+                or R is essential for data manipulation and analysis.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 ">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample4"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+          
+            >
+             
+
+              What is the meaning of Deep Learning
+            </button>
+
+            <div class="collapse" id="collapseExample4">
+              <div class="card card-body bg-primary text-white">
+                Deep learning is a subset of machine learning that trains neural
+                networks to mimic the human brain, enabling automatic learning
+                through interconnected layers. It utilizes backpropagation to
+                adjust network weights and improve accuracy in predictions.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample5"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+          
+            >
+             
+
+              What is Machine learning?
+            </button>
+
+            <div class="collapse" id="collapseExample5">
+              <div class="card card-body bg-primary text-white">
+                Machine learning focuses on developing algorithms that enable
+                computers to learn and make predictions or decisions without
+                explicit programming instructions, based on patterns and data.
+                It involves training models on data to improve their performance
+                over time.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 ">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample6"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+       
+            >
+              
+
+              How to kick start your career in Data science
+            </button>
+
+            <div class="collapse" id="collapseExample6">
+              <div class="card card-body bg-primary text-white">
+                Acquire a strong foundation in statistics and programming
+                languages like Python or R. Gain hands-on experience through
+                projects, internships, and online courses to showcase your
+                skills and build a professional network within the data science
+                community.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 ">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample7"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+  
+            >
+          
+
+              What job roles are available in the field of data science?
+            </button>
+
+            <div class="collapse" id="collapseExample7">
+              <div class="card card-body bg-primary text-white">
+                The field of data science offers diverse job roles, including
+                data scientist, data analyst, machine learning engineer,
+                business analyst, data engineer, and data consultant, among
+                others.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample8"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            
+            >
+             
+              What are the tools and technologies used in data science?
+            </button>
+
+            <div class="collapse" id="collapseExample8">
+              <div class="card card-body bg-primary text-white">
+                Some popular tools and technologies used in the field of data
+                science include Python (with libraries such as Pandas, NumPy,
+                and Scikit-learn), R (with packages like ggplot and caret), and
+                data visualization tools like Tableau and Matplotlib.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample9"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+             
+            >
+          
+
+              How long do the data science courses typically last?
+            </button>
+
+            <div class="collapse" id="collapseExample9">
+              <div class="card card-body bg-primary text-white">
+                The duration of our data science courses varies depending on the
+                specific course. We offer both short-term intensive courses and
+                longer-term comprehensive programs. The course duration is
+                mentioned in the course details on our website.
+              </div>
+            </div>
+          </div>
+          <div class="col-12 "">
+            <button
+              class="btn p-3 text-start fs-4 text-white border-0-focus"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample10"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+              
+            >
+             
+
+              Are the courses suitable for non-technical professionals?
+            </button>
+
+            <div class="collapse" id="collapseExample10">
+              <div class="card card-body bg-primary text-white">
+                Yes, we offer data science courses tailored to accommodate
+                learners with non-technical backgrounds. These courses provide a
+                comprehensive introduction to data science concepts and
+                emphasize practical applications without assuming extensive
+                technical knowledge.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end questions -->
+    <!-- start footer -->
+    <div class="footer  py-3" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 text-white mb-5">
+            <h6 class="fw-bold fs-4 mb-3">Web Designer</h6>
+            <div class="text lh-lg text-white-50">
+              Web designer creates the layout and design of a website. In simple terms, a website designer makes a site look good. They use design programs to create visual elements.
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4  mb-5 text-white d-flex justify-content-center ps-2 ps-md-5">
+           
+            <div class="text ps-0 ps-sm-3">
+              <h6 class="fw-bold fs-4 mb-3">Privacy</h6>
+              <ul>
+                <li><a href="#privacy">Privacy</a></li>
+                <li><a href="#terms">Terms and conditions</a></li>
+                <li><a href="#policy">Refund Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-white">
+            <h6 class="fw-bold fs-4 mb-3">Contact Us</h6>
+            <div class="text">
+              <ul>
+                <li><a href="tel:+201204013959">+201204013959</a></li>
+                <li><a href="tel:+201202625244">+201202625244</a></li>
+                <li><a href="mailto:ramezkaram04013@gmail.com">ramezkaram04013@gmail.com</a></li>
+              </ul>
+              <div class="soical-contact">
+                <a href="https://www.facebook.com/ramez.karam.714?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook fs-3 me-3"></i></a>
+                  <a href="https://wa.me/201204013959"><i class="fa-brands fa-whatsapp fs-3 me-3"></i></a>
+                <a href="https://t.me/rk0309099"><i class="fa-brands fa-telegram fs-3 me-3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-white text-center pt-4 pb-3">
+      <p class="text-white-50">© Copyright 2024 | <i style="color: var(--yellow-color); letter-spacing: 2.2px;">Ramez Karam</i></p>
+    </footer>
+    <!-- end footer -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- script files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

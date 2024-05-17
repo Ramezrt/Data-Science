@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="icon" href="icons8-star-100.png" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <!-- google foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- aso -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div
+        class="login position-absolute top-50 start-50 translate-middle d-flex flex-row"
+      >
+        <div class="signin text-center rounded-2">
+          <form
+            action=""
+            method="post"
+            class="p-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2>Sign In</h2>
+            <div class="icons mb-3 p-3">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="d-block"
+            />
+            <input
+              class="d-block"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your Password"
+            />
+            <a href="#forget">Forget You Password?</a>
+            <button class="btn btn-danger">Sign In</button>
+            <a href="#">Create New Account</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- script files -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
